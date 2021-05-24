@@ -6,7 +6,7 @@ if [ -f "/app/.stylelintrc" ]
 then
   stylelint_rc=true
 else
-  mv /root/.stylelintrc /app/.stylelintrc
+  mv /stylelint/.stylelintrc /app/.stylelintrc
 fi
 
 stylelint "$@"
